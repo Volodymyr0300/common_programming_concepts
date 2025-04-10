@@ -1,23 +1,52 @@
-fn main() {
-    let tup = (500, 6.4, 1);
-    let (x, y, z) = tup;
-    println!("The values of are: {} {} {}", x, y, z);
+// fn main() {
+//     println!("Hello, world!");
     
-    let tup2: (i32, f64, u8) = (500, 6.4, 1);
-    let five_hundred = tup2.0;
-    let six_point_four = tup2.1;
-    let one = tup2.2;
-    println!("The values of are: {} {} {}", five_hundred, six_point_four, one);
+//     another_function();
 
-    let _a = [1, 2, 3, 4, 5];
-    let first = _a[0];
-    let second = _a[1];
-    println!("The values of are: {} {}", first, second);
+//     fn another_function() {
+//         println!("Another function.");
+//     }
+// }
+
+// fn main() {
+//     another_function(5, 6);
+// }
+
+// fn another_function(x: i32, y: i32) {
+//     println!("The value of x is: {}", x);
+//     println!("The value of y is: {}", y);
+// }
+
+// fn main() {
+//     let _x = 5;
+//     let y = {
+//         let x = 3;
+//         x + 1
+//     };
+//     println!("The value of y is: {}", y);
+// }
+
+// fn five() -> i32 {
+//     5
+//     }
+//     fn main() {
+//     let x = five();
+//     println!("The value of x is: {}", x);
+//     }
+
+// fn main() {
+//     let x = plus_one(5);
+//     println!("The value of x is: {}", x);
+//     fn plus_one(x: i32) -> i32 {
+//     x + 1
+//     }
+// }
+
+// fn main() {
+//     let x = plus_one(5);
+//     println!("The value of x is: {}", x);
     
-    let _months = ["January", "February", "March", "April", "May", "June", "July",
-"August", "September", "October", "November", "December"];
-
-    let _b: [i32; 5] = [1, 2, 3, 4, 5];
-
-    let _c = [3; 5]; // [3, 3, 3, 3, 3]
-}
+//     fn plus_one(x: i32) -> i32 {
+//     x + 1;
+//     }
+// }
