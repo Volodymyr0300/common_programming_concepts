@@ -1,52 +1,57 @@
-// fn main() {
-//     println!("Hello, world!");
-    
-//     another_function();
+fn main() {
+    let number = 7;
+    if number < 5 {
+    println!("condition was true");
+    } else {
+    println!("condition was false");
+    }
+    }
 
-//     fn another_function() {
-//         println!("Another function.");
+// fn main() {
+//     let number = 3;
+//     if number {
+//     println!("number was three");
 //     }
 // }
 
 // fn main() {
-//     another_function(5, 6);
-// }
-
-// fn another_function(x: i32, y: i32) {
-//     println!("The value of x is: {}", x);
-//     println!("The value of y is: {}", y);
+//     let number = 3;
+//     if number != 0 {
+//     println!("number was something other than zero");
+//     }
 // }
 
 // fn main() {
-//     let _x = 5;
-//     let y = {
-//         let x = 3;
-//         x + 1
-//     };
-//     println!("The value of y is: {}", y);
+//     let number = 6;
+
+//     if number % 4 == 0 {
+//         println!("number is divisible by 4");
+//         } else if number % 3 == 0 {
+//         println!("number is divisible by 3");
+//         } else if number % 2 == 0 {
+//         println!("number is divisible by 2");
+//         } else {
+//         println!("number is not divisible by 4, 3, or 2");
+//     }
 // }
 
-// fn five() -> i32 {
+// fn main() {
+//     let condition = true;
+    
+//     let number = if condition {
 //     5
-//     }
-//     fn main() {
-//     let x = five();
-//     println!("The value of x is: {}", x);
-//     }
-
-// fn main() {
-//     let x = plus_one(5);
-//     println!("The value of x is: {}", x);
-//     fn plus_one(x: i32) -> i32 {
-//     x + 1
-//     }
+//     } else {
+//     6
+//     };
+//     println!("The value of number is: {}", number);
 // }
 
 // fn main() {
-//     let x = plus_one(5);
-//     println!("The value of x is: {}", x);
-    
-//     fn plus_one(x: i32) -> i32 {
-//     x + 1;
-//     }
+//     let condition = true;
+//     let number = if condition {
+//     5
+//     } else {
+//     "six"
+//     };
+//     println!("The value of number is: {}", number);
 // }
